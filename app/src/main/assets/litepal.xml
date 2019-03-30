@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <!--定义应用程序数据库名称-->
+    <dbname value="cool_weather"/>
+
+    <!--定义数据库的版本-->
+    <version value="1"/>
+
+    <!--使用映射标记在列表中定义模型，LitePal将为每个映射类创建表。db文中的实体类名称-->
+    <list>
+        <mapping class="com.example.insaneweather.db.Province"/>
+        <mapping class="com.example.insaneweather.db.City"/>
+        <mapping class="com.example.insaneweather.db.County"/>
+    </list>
+</litepal>
